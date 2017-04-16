@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         private Sensor mAcceleromenter;
         private long mLastT;
 
-        //extras
+        //Para Formar el Laberinto
         boolean[][] verticalBounds = new boolean[][]{
                 {true, false, false, true, false, false,    false, false, false, false, false, false},
                 {true, false, false, true, true, false,      true,true, true, false, true, false},
